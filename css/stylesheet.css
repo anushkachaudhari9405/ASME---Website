@@ -1,0 +1,144 @@
+/* #sidebar {
+background:blue; 
+margin: 0px;
+float: right;
+width: 214px;
+border: solid 2px #000;
+ height: 100px;
+} */
+/* #main {
+background: #82cadd;
+margin: 0px;
+font-size: 110%; width: 750px;
+height: 800px;
+
+border: solid 2px #000;
+} */
+
+
+/* #box {
+background-color: white;
+border: 2px solid #000; border-radius: 0.5em;
+font-size: 95%;
+padding: 10px;
+margin: 20px; width: 100px;
+} */
+
+/* .test  {
+
+display: block; 
+text-align: center;
+} */
+/* #footer {
+
+background: #5c755e;
+
+margin: 0px; height: 75px;
+
+clear: both; border: solid 2px #000;
+} */
+img{
+    float: left;
+    max-width: 50%;
+    max-height: auto;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif; 
+    text-decoration: none;
+    /* background-color: #9caeb4; */
+    
+} 
+
+.team{
+     position: relative;
+    width: 100%; 
+     /* height: 0vh;   */
+    background: radial-gradient(#0f9fcf); 
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+} 
+
+.team-content{
+    width: 50%;
+    max-width: 1350px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    align-items: center; 
+    gap: 2rem; 
+    text-align: center;
+    margin-top: 4rem; 
+}
+    
+.team-content img{ 
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.center h1{
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.box{
+    padding: 16px;
+    background: #03437a;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+
+.box h3{
+    font-size: 23px;
+
+    font-weight: 600;
+    color: hsl(180, 27%, 94%);
+    margin-bottom: 8px;
+}
+
+.box h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.icons i{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 8px;
+    transition: all .38s ease;
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+}
+
+.box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}  
+
+
+
+/* .container{
+    width: fit-content;
+    height: fit-content;
+    padding: 5%;
+} */
+
+/* img{
+    height: 0%;
+    width: 100%;
+} */
